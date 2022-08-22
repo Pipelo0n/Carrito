@@ -14,16 +14,16 @@ import FichaProducto from "./FichaProducto";
 class Producto extends React.Component {
   render() {
     return (
-      <Col sm="4">
-        <Card className="Card" body outline color="primary">
+      <Col sm="3">
+        <Card className="Card">
+          <CardTitle>{this.props.titulo}</CardTitle>
           <CardImg src={this.props.imagen} />
-          <CardBody>
-            <CardTitle>{this.props.titulo}</CardTitle>
-            <CardSubtitle>
+          <CardBody className="cardBody">
+            <CardText>{this.props.descripcion}</CardText>
+            {/* <CardSubtitle>
               {" "}
               <b>Valor: </b> {this.props.precio}{" "}
-            </CardSubtitle>
-            <CardText>{this.props.descripcion}</CardText>
+            </CardSubtitle> */}
             <FichaProducto props={this.props} />
           </CardBody>
         </Card>

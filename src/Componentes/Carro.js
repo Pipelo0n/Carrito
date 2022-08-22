@@ -8,6 +8,7 @@ import {
   Table,
 } from "reactstrap";
 import { listaCarrito } from "../listaCarrito";
+import "./FichaProducto.css";
 
 class Carro extends React.Component {
   constructor() {
@@ -53,7 +54,7 @@ class Carro extends React.Component {
     });
     return (
       <div>
-        <Button id="Popover1" color="info">
+        <Button id="Popover1" color="dark">
           <span className="material-icons">shopping_cart</span>
           <Badge color="dark" id="Badge1">
             {listaCarrito.length}

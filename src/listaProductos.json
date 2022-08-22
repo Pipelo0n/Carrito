@@ -1,84 +1,94 @@
 {
     "listaProductos": [
         {
-            "titulo": "Consola Nintendo Gameboy",
-            "imagen": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Game-Boy-FL.jpg",
-            "descripcion": "Consola Nintendo Game Boy",
+            "titulo": "Gameboy",
+            "imagen": "https://i.postimg.cc/hjkN72c0/GB.png",
+            "descripcion": "Consola Nintendo Game Boy Clasic",
             "precio": "80.000",
             "stock": "3",
-            "estado": "Usada"
+            "estado": "Usada",
+            "dato": "Es una videoconsola portátil desarrollada y comercializada por Nintendo, lanzada por primera vez en Japón y América del Norte en 1989, y en Europa un año después. Perteneció a la línea de consolas Game Boy, siendo esta la primera de la serie. "
         },
         {
-            "titulo": "Consola Nintendo Gameboy Pocket",
-            "imagen": "https://media.karousell.com/media/photos/products/2021/12/8/gameboy_pocket_green_nintendo__1638937930_9135e3ad_progressive.jpg",
+            "titulo": "Gameboy Pocket",
+            "imagen": "https://i.postimg.cc/43n0LD35/GBPoket.png",
             "descripcion": "Consola Nintendo Gameboy Pocket - Green",
             "precio": "60.000",
             "stock": "2",
-            "estado": "Usada"
+            "estado": "Nueva",
+            "dato": "La Game Boy Pocket es una consola de videojuegos fabricada por Nintendo y lanzada al mercado en 1996. Este modelo es una modificación de la Game Boy clásica."
         },
         {
             "titulo": "Gameboy Color",
-            "imagen": "https://www.kindpng.com/picc/m/569-5695666_game-boy-yellow-game-boy-color-hd-png.png",
+            "imagen": "https://i.postimg.cc/PJ19b1qn/GBColor.png",
             "descripcion": "Consola Nintendo Game Boy Color - Yellow", 
             "precio": "75.000",
             "stock": "4",
-            "estado": "Usada"
+            "estado": "Usada",
+            "dato": "El Game Boy Color, abreviada GBC, es una videoconsola portátil de la quinta generación de la familia de sistemas de videojuegos de Nintendo Game Boy, esta portátil es la competidora principal de la PocketStation de Sony y la Neo Geo Pocket Color de SNK."
         },
         {
             "titulo": "Gameboy Advance",
-            "imagen": "http://www.retroplace.com/pics/gba/titles/136483--nintendo-game-boy-advance.png",
+            "imagen": "https://i.postimg.cc/PrkBXV6X/GBAdvanced.png",
             "descripcion": "Consola Nintendo Game Boy Advance",
             "precio": "85.000",
             "stock": "3",
-            "estado": "Usada"
+            "estado": "Usada",
+            "dato": "La Game Boy Advance, abreviada como GBA, es una consola de videojuegos de la compañía Nintendo, fabricada desde marzo de 2001 hasta 2008. La GBA forma parte de la sexta generación de videoconsolas. El modelo original no tenía una pantalla con iluminación, lo que fue solucionado con la Game Boy Advance SP"
         },
         {
-            "titulo": "Consola Nintendo Switch Lite",
-            "imagen": "https://www.paris.cl/dw/image/v2/BCHW_PRD/on/demandware.static/-/Sites-paris-marketplace/default/dw7fa21f6c/images/imagenes-productos/800/MKBG/MKBGMRDODV-001.jpg?sw=513&sh=654&sm=fit",
+            "titulo": "Switch Lite",
+            "imagen": "https://i.postimg.cc/c4MPr7jQ/switch-Lite.png",
             "descripcion": "Consola Nintendo Switch Lite - Cyan",
             "precio": "199.990",
             "stock": "5",
-            "estado": "Nueva"
+            "estado": "Nueva",
+            "dato": "La consola para los jugadores en continuo movimiento. La consola Nintendo Switch Lite está diseñada específicamente para el juego portátil, así podrás disfrutar de tus juegos favoritos desde donde quiera que estés."
         },
         {
-            "titulo": "Consola Nintendo Switch OLED",
-            "imagen": "https://www.paris.cl/dw/image/v2/BCHW_PRD/on/demandware.static/-/Sites-cencosud-master-catalog/default/dw8abb6226/images/imagenes-productos/743/733469-0000-004.jpg?sw=513&sh=654&sm=fit",
+            "titulo": "Switch OLED",
+            "imagen": "https://i.postimg.cc/hjd5gVTQ/Switch-Oled.png",
             "descripcion": "Consola Nintendo Switch OLED - White",
             "precio": "419.990",
             "stock": "8",
-            "estado": "Nueva"
+            "estado": "Nueva",
+            "dato": "Nintendo Switch (modelo OLED) tiene una pantalla más grande (OLED de 7 pulgadas) que muestra imágenes más intensas, un soporte ajustable más ancho, más almacenamiento interno ampliable (64 GB), mejoras de sonido durante los modos portátil y semiportátil, y va en un paquete con una base con un puerto LAN incluido."
         },
         {
-            "titulo": "Control Nintendo Switch Pro Controller",
-            "imagen": "https://www.paris.cl/dw/image/v2/BCHW_PRD/on/demandware.static/-/Sites-cencosud-master-catalog/default/dw72122c83/images/imagenes-productos/743/133820-0000-004.jpg?sw=513&sh=654&sm=fit",
-            "descripcion": "Control Nintendo Switch Pro",
+            "titulo": "Switch Controller",
+            "imagen": "https://i.postimg.cc/zGxMkzqv/Joycon2.png",
+            "descripcion": "Nintendo Switch Pro Controller",
             "precio": "59.990",
             "stock": "10",
-            "estado": "Nueva"
+            "estado": "Nueva",
+            "dato": " "
         },
         {
-            "titulo": "Control Gamer Joy-Con L/R Blue/Neon",
-            "imagen": "https://www.paris.cl/dw/image/v2/BCHW_PRD/on/demandware.static/-/Sites-cencosud-master-catalog/default/dwe880db32/images/imagenes-productos/743/309215-0000-003.jpg?sw=513&sh=654&sm=fit",
-            "descripcion": "Control Gamer Joy-Con L-R",
+            "titulo": "Gamer Joy-Con",
+            "imagen": "https://i.postimg.cc/W4KHQ5FP/Joycon.png",
+            "descripcion": "Control Gamer Joy-Con L-R Blue/Neon",
             "precio": "79.990",
             "stock": "10",
-            "estado": "Nueva"
+            "estado": "Nueva",
+            "dato": "Los mandos Joy-Con son los principales controles de la consola de videojuegos Nintendo Switch. Son de dos unidades individuales, cada una de las cuales contiene una palanca análoga y una matriz de botones. Pueden utilizarse mientras están conectados a la unidad principal de la consola Nintendo Switch, o separados y utilizados de forma inalámbrica;"
         },
         {
-            "titulo": "Control 8BITDO SN30 Pro PLus G Classic",
-            "imagen": "https://www.paris.cl/dw/image/v2/BCHW_PRD/on/demandware.static/-/Sites-paris-marketplace/default/dwb0dcf590/images/imagenes-productos/800/MK3I/MK3IY0Y4RV-002.jpg?sw=513&sh=654&sm=fit",
-            "descripcion": "Control Nintendo Switch 8BITDO SN30 Pro",
+            "titulo": "8BITDO SN30 Pro PLus",
+            "imagen": "https://i.postimg.cc/1RFkZ1r7/Joystick.png",
+            "descripcion": "Control Nintendo Switch 8BITDO SN30 Pro G-Classic",
             "precio": "59.990",
             "stock": "5",
-            "estado": "Nueva"
+            "estado": "Nueva",
+            "dato": "Este mando combina funciones revolucionarias mientras conserva precisión, comodidad y exactitud en cada movimiento. Gracias a su ergonomía especialmente pensada para la posición de tu mano, puedes pasar horas jugando con total confort."
         },
         {
-            "titulo": "Micro SD 128GB Original Nintendo NSW",
-            "imagen": "https://www.paris.cl/dw/image/v2/BCHW_PRD/on/demandware.static/-/Sites-paris-marketplace/default/dwb735dceb/images/imagenes-productos/800/MKS3/MKS3WGBP3T-001.jpg?sw=513&sh=654&sm=fit",
+            "titulo": "Micro SD 128GB",
+            "imagen": "https://i.postimg.cc/zGz6WbZ4/memory.png",
             "descripcion": "Tarjeta de memoria MicroSD 128Gb Nintendo ORIGINAL",
             "precio": "39.990",
             "stock": "5",
-            "estado": "Nueva"
+            "estado": "Nueva",
+            "dato": " "
         }
 
     ]

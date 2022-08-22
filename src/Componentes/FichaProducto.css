@@ -4,5 +4,57 @@
 }
 
 .ml-auto {
-    margin-left: auto;
+    margin-left:auto;
+}
+
+#fotito {
+    width: 70%;
+    margin-left: 70px;
+} 
+
+h3.popover-header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#Badge1 {
+    color: rgb(124, 124, 124);
+}
+
+div.modal-content {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+/* div.container buttom {
+    text-align: center;
+} */
+
+h5.modal-title {
+    font-size: 30px;
+    margin-bottom: -20px;
+}
+
+div.modal-header {
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+div.container {
+    justify-content: center;
+}
+
+#descripcion {
+    text-align: center;
+}
+
+.datito {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.datito::first-letter {
+    font-size: 25px;
+    margin-left: 25px;
 }
