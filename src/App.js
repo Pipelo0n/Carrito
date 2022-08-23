@@ -26,13 +26,14 @@ class App extends React.Component {
             precio={listaProductos.precio}
             stock={listaProductos.stock}
             estado={listaProductos.estado}
+            dato={listaProductos.dato}
           />
         );
       }
     );
     return (
       <Container>
-        <Navegacion titulo=".:.:: CONSOLAS RETRO ::.:." />
+        <Navegacion titulo=".:.:: E-Commerce / Jovenes Programadores ::.:." />
         <Row>{arregloComponentes}</Row>
       </Container>
     );

@@ -9,12 +9,17 @@ class Navegacion extends React.Component {
         <NavbarBrand href="/"> {this.props.titulo} </NavbarBrand>
         <Nav className="ml-auto" navbar>
           <NavItem>
-            <NavLink href="/"> Redes Sociales </NavLink>
+            <NavLink href="https://www.google.cl" target="_blank">
+              {" "}
+              Redes Sociales{" "}
+            </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/"> Contactanos .</NavLink>
+            <NavLink href="https://www.google.cl" target="_blank">
+              {" "}
+              Contactanos .
+            </NavLink>
           </NavItem>
-
           <NavItem>
             <Carro />
           </NavItem>

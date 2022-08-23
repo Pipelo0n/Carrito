@@ -58,31 +58,26 @@ class FichaProducto extends React.Component {
         <Button onClick={this.toggle}>Ver Ficha</Button>
         <Modal isOpen={this.state.modal}>
           <ModalHeader> {this.props.props.titulo} </ModalHeader>
+          <p id="descripcion">{this.props.props.descripcion}</p>
           <ModalBody>
-            <CardImg src={this.props.props.imagen} />
+            <CardImg id="fotito" src={this.props.props.imagen} />
+            <p className="datito">{this.props.props.dato}</p>
             <p>
-              <b>.:.:: DETALLES DEL PRODUCTO ::.:.</b>
-            </p>
-            {this.props.props.descripcion}
-            <p>
-              Este producto tiene un valor de $<b>{this.props.props.precio}</b>{" "}
-              pesos.
-            </p>
-            <p>
-              Hay <b>{this.state.stock}</b> unidades de este producto.
+              <b>PRECIO: </b> $<b>{this.props.props.precio}</b> pesos.
             </p>
             <p>
               {" "}
               Estado: <b>{this.props.props.estado}</b>
             </p>
+            <p>
+              Hay <b>{this.state.stock}</b> unidades de este producto.
+            </p>
           </ModalBody>
           <ModalFooter className="modalFooter">
-            <Button color="primary" onClick={this.agregarCarrito}>
+            <Button id="agregar" onClick={this.agregarCarrito}>
               Agregar al carro
             </Button>
-            <Button color="secondary" onClick={this.toggle}>
-              Atrás
-            </Button>
+            <Button onClick={this.toggle}>Atrás</Button>
           </ModalFooter>
         </Modal>
       </Container>
